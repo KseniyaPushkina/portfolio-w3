@@ -1,0 +1,35 @@
+.about__container-title {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--mine-shaft);
+  margin-bottom: 4px;
+}
+
+.container.about__container {
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 1024px) {
+  .container.about__container {
+    padding-bottom: 38px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about__container-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container.about__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about__container-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+}

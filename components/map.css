@@ -1,0 +1,24 @@
+.map__wrapper {
+  width: 100%;
+  height: 700px;
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
+
+[class*="copyrights-pane"] {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .map__wrapper {
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .map__wrapper {
+    height: 500px;
+  }
+}
